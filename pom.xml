@@ -158,6 +158,11 @@
       </dependency>
       <dependency>
         <groupId>org.wildfly.swarm</groupId>
+        <artifactId>wildfly-swarm-config</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.swarm</groupId>
         <artifactId>wildfly-swarm-container</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -351,6 +356,7 @@
     <!-- fractions -->
     <module>bean-validation</module>
     <module>clustering</module>
+    <module>config</module>
     <module>connector</module>
     <module>datasources</module>
     <module>ee</module>

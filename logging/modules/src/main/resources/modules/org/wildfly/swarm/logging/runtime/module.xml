@@ -11,7 +11,6 @@
     <module name="org.wildfly.swarm.logging"/>
 
     <module name="org.jboss.as.logging"/>
-    <module name="org.wildfly.config-lib"/>
   </dependencies>
 
 </module>
